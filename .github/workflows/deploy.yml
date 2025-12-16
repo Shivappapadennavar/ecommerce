@@ -1,0 +1,42 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+      ec2_host:
+        description: 'EC2 Host IP'
+        required: true
+        default: ''
+      ec2_username:
+        description: 'EC2 Username'
+        required: true
+        default: 'ubuntu'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@master
+        with:
+          # Use input if provided (manual run), otherwise use secret (push event)
+          host: ${{ inputs.ec2_host || secrets.EC2_HOST }}
+          username: ${{ inputs.ec2_username || secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
+          script: |
+            echo "Starting Deployment..."
+            
+            # Download the latest deploy script from the repository
+            curl -H "Cache-Control: no-cache" -o deploy.sh https://raw.githubusercontent.com/bot28-b/ecommerce/main/deploy.sh
+            
+            chmod +x deploy.sh
+            
+            # Run the deployment script
+            sudo ./deploy.sh
