@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Premium Wireless Headphones",
+    "price": 299,
+    "description": "Experience high-fidelity sound with our premium noise-cancelling headphones. Designed for comfort and long-lasting battery life.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    "id": "2",
+    "name": "Ergonomic Office Chair",
+    "price": 450,
+    "description": "Work in comfort with this fully adjustable ergonomic chair. Breathable mesh and lumbar support included.",
+    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e276?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    "id": "3",
+    "name": "Smart Fitness Watch",
+    "price": 199,
+    "description": "Track your health and workouts with precision. Features heart rate monitoring, GPS, and sleep tracking.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    "id": "4",
+    "name": "Mechanical Keyboard",
+    "price": 129,
+    "description": "Tactile and responsive mechanical switches for the ultimate typing experience. customizable RGB lighting.",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b91a05c?q=80&w=1000&auto=format&fit=crop"
+  }
+]
