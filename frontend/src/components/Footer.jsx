@@ -42,7 +42,7 @@ const Footer = () => {
                 <div className="border-l border-gray-700 pl-0 md:pl-8">
                     <h3 className="text-gray-400 font-medium mb-4 uppercase tracking-wider text-xs">Mail Us:</h3>
                     <p className="mb-4 text-sm leading-relaxed">
-                        ShopVibe Internet Private Limited,<br />
+                        QuickKart Internet Private Limited,<br />
                         Buildings Alyssa, Begonia &<br />
                         Clove Embassy Tech Village,<br />
                         Bengaluru, 560103,<br />
@@ -60,10 +60,10 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-400">
                 <div className="flex items-center gap-2 mb-2 sm:mb-0">
                     <span className="text-yellow-400"><MapPin size={14} /></span>
-                    <span>Sell On ShopVibe</span>
+                    <span>Sell On QuickKart</span>
                 </div>
                 <div className="mb-2 sm:mb-0">
-                    © 2007-2024 ShopVibe.com
+                    © 2007-2024 QuickKart.com
                 </div>
                 <div className="flex items-center gap-4">
                     <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg" alt="Payments" className="h-4" />

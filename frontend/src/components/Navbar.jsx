@@ -29,7 +29,7 @@ const Navbar = () => {
                         whileHover={{ scale: 1.05 }}
                         className="text-white italic font-extrabold text-2xl tracking-tighter"
                     >
-                        Shop<span className="text-brand-yellow not-italic">Vibe</span>
+                        Quick<span className="text-brand-yellow not-italic">Kart</span>
                     </motion.div>
                 </Link>
 

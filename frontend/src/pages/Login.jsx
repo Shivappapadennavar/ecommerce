@@ -111,7 +111,7 @@ const Login = () => {
                         </div>
 
                         <div className="text-xs text-gray-500 text-right">
-                            By continuing, you agree to ShopVibe's <a href="#" className="text-brand-blue font-semibold">Terms of Use</a> and <a href="#" className="text-brand-blue font-semibold">Privacy Policy</a>.
+                            By continuing, you agree to QuickKart's <a href="#" className="text-brand-blue font-semibold">Terms of Use</a> and <a href="#" className="text-brand-blue font-semibold">Privacy Policy</a>.
                         </div>
 
                         <button
@@ -131,7 +131,7 @@ const Login = () => {
                     </form>
 
                     <div className="mt-8 text-center">
-                        <p className="text-brand-blue font-semibold cursor-pointer hover:underline text-sm mb-4">New to ShopVibe? Create an account</p>
+                        <p className="text-brand-blue font-semibold cursor-pointer hover:underline text-sm mb-4">New to QuickKart? Create an account</p>
 
                         <div className="flex items-center justify-center gap-2 text-xs text-gray-400 bg-gray-50 p-3 rounded">
                             <User size={12} />
